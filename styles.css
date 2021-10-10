@@ -1,0 +1,190 @@
+/* Modify HTML Body Property */
+body {
+  display: flex;
+  
+  /* background: #1f2937; */
+}
+/* Insert a broken Line in Flexbox */
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+/* Commond Font Color items*/
+.header-logo,
+.header-links,
+.first-child-container,
+.button-blue,
+.second-child-container,
+.footer {
+  color: #f9faf8;
+}
+/* Modify the Owesome Text */
+#awesome {
+  display: flex;
+  font-size: 48px;
+  font-weight: bolder;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 1px;
+  margin-left: 10px;
+}
+/* Main Container Properties */
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  background: #1f2937;
+}
+/* Flex Containers Commond Properties */
+.top-section,
+.middle-section,
+.action,
+.quote,
+.text-quote,
+.header-container,
+.container-awesome-holder,
+.info,
+.illustration,
+.illustration-text,
+.first-child-container,
+.second-child-container,
+.text-quote,
+.blue-container,
+.singup-container,
+.footer,
+.illu-image,
+.illu-text,
+.illustration-text,
+#small-text-awesome
+{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  /* border: 4px solid yellow; */
+}
+
+/* Flex Containers / Item unique Properties */
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+  align-self: center;
+  margin-left: 10px;
+}
+.top-section{
+  padding-bottom: 20px;
+}
+ul,
+.header-links {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: 10px;
+}
+.first-child-container{
+  margin-bottom: 50px;
+}
+.second-child-container {
+  height: 200px;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  padding: 20px;
+}
+.image{
+  flex:1;
+}
+.img-mod{
+  width: 100%;
+  min-width: 280px;
+}
+#small-text-awesome{
+  padding-top: 0px;
+  margin: 0px 10px;
+  text-align: justify;
+}
+.button-blue{
+  background: #3882f6;
+  margin-top: 1px;
+  margin-left: 10px;
+  padding: 1px 24px;
+  font-weight: 900;
+  border: 0px;
+  border-radius: 5px;
+}
+.info{
+  background: whitesmoke;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+.small-div{
+  border: 2px solid #3882F6;
+  height: 80px;
+  width: 80px;
+  border-radius: 10%;
+}
+.illustration{
+  background: whitesmoke;
+}
+.illu-image,
+.illu-text{
+  justify-content: center;
+  gap: 45px;
+}
+.illustration-text{
+  justify-content: center;
+  text-align: center;
+  font-size: 10px;
+  max-width: 80px;
+}
+.quote{
+  background: lightgray;
+  height: 200px;
+  width: 100px;
+  padding: 50px 80px;
+}
+.text-quote{
+  align-self: center;
+}
+.author{
+  align-self: flex-end;
+  margin-left: auto;
+}
+.action{
+  background: whitesmoke;
+  padding: 50px 80px;
+}
+.blue-container{
+  background: #3882f6;
+  padding: 10px 25px;
+  border-radius: 5px;
+}
+.calltoaction{
+  font-weight: 800;
+  color: #f9faf8;
+  flex-grow: 2;
+}
+.paragr{
+  font-size: 10px;
+  font-weight: normal;
+}
+.singup-container{
+  justify-content: center;
+  align-items: center;
+}
+.Blue-b2{
+  background: #3882f6;
+  margin-top: 2px;
+  padding: 4px 16px;
+  font-weight: 900;
+  border: 1px solid #f9faf8;
+  border-radius: 5px;
+  color: #f9faf8;
+}
+.footer{
+  justify-content: center;
+  padding: 15px;
+}
